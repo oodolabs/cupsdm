@@ -1,9 +1,9 @@
 {
-	"name": "cupsdm-tools",
+	"name": "cupsdm",
 	"version": "0.1.0",
 	"description": "CUPS drivers management tools",
 	"license": "MIT",
-	"repository": "oodolabs/cupsdm-tools",
+	"repository": "oodolabs/cupsdm",
 	"author": {
 		"name": "towyuan",
 		"email": "towyuan@outlook.com",

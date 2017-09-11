@@ -1,4 +1,4 @@
-# cupsdm-tools [![Build Status](https://travis-ci.org/oodolabs/cupsdm-tools.svg?branch=master)](https://travis-ci.org/oodolabs/cupsdm-tools)
+# cupsdm [![Build Status](https://travis-ci.org/oodolabs/cupsdm.svg?branch=master)](https://travis-ci.org/oodolabs/cupsdm)
 
 > CUPS drivers management tools
 
@@ -6,7 +6,7 @@
 ## Install
 
 ```
-$ npm install cupsdm-tools
+$ npm install cupsdm
 ```
 
 ## Usage
