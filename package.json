@@ -1,0 +1,47 @@
+{
+	"name": "cupsdm-tools",
+	"version": "0.0.0",
+	"description": "CUPS drivers management tools",
+	"license": "MIT",
+	"repository": "oodolabs/cupsdm-tools",
+	"author": {
+		"name": "towyuan",
+		"email": "towyuan@outlook.com",
+		"url": "github.com/oodolabs"
+	},
+	"engines": {
+		"node": ">=4"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		""
+	],
+	"dependencies": {
+		"axios": "^0.16.2",
+		"bluebird": "^3.5.0",
+		"debug": "^3.0.1",
+		"download": "^6.2.5",
+		"errs": "^0.3.2",
+		"fs-extra": "^4.0.1",
+		"lodash": "^4.17.4",
+		"lowdb": "^1.0.0",
+		"ncups": "^0.5.1"
+	},
+	"devDependencies": {
+		"@types/chai": "^4.0.4",
+		"@types/chai-as-promised": "^7.1.0",
+		"@types/fs-extra": "^4.0.1",
+		"@types/lodash": "^4.14.74",
+		"@types/lowdb": "^0.15.0",
+		"@types/mocha": "^2.2.42",
+		"chai": "^4.1.2",
+		"chai-as-promised": "^7.1.1",
+		"mocha": "^3.5.0",
+		"xo": "^0.18.2"
+	}
+}
