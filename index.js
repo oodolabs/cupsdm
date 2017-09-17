@@ -1,10 +1,9 @@
 'use strict';
-module.exports = (input, opts) => {
-	if (typeof input !== 'string') {
-		throw new TypeError(`Expected a string, got ${typeof input}`);
-	}
 
-	opts = opts || {};
+const Manager = require('./lib/manager');
 
-	return input + ' & ' + (opts.postfix || 'rainbows');
+exports.createManger = function () {
+	return new Manager(...arguments);
 };
+
+exports.Manager = Manager;

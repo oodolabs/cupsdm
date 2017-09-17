@@ -95,7 +95,7 @@ describe('Manager', function () {
 
 			_.forEach(nodes, node => {
 				if (node.model === 'Unsupported') {
-					assert.equal('unsupported', node.state);
+					assert.equal('notfound', node.state);
 				} else {
 					assert.equal('ready', node.state);
 				}
