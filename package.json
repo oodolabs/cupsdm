@@ -1,48 +1,49 @@
 {
-	"name": "cupsdm",
-	"version": "0.1.0",
-	"description": "CUPS drivers management tools",
-	"license": "MIT",
-	"repository": "oodolabs/cupsdm",
-	"author": {
-		"name": "towyuan",
-		"email": "towyuan@outlook.com",
-		"url": "github.com/oodolabs"
-	},
-	"engines": {
-		"node": ">=4"
-	},
-	"scripts": {
-		"patch": "versiony package.json --patch && npm i",
-		"minor": "versiony package.json --newminor && npm i",
-		"major": "versiony package.json --newmajor && npm i",
-		"test": "mocha test/**/*.test.js"
-	},
-	"keywords": [
-		"cups",
-		"driver",
-		"manager"
-	],
-	"dependencies": {
-		"axios": "^0.16.2",
-		"bluebird": "^3.5.0",
-		"debug": "^3.0.1",
-		"download": "^6.2.5",
-		"errs": "^0.3.2",
-		"fs-extra": "^4.0.2",
-		"lodash": "^4.17.4",
-		"lowdb": "^1.0.0",
-		"ncups": "^0.7.4"
-	},
-	"devDependencies": {
-		"@types/chai": "^4.0.4",
-		"@types/chai-as-promised": "^7.1.0",
-		"@types/fs-extra": "^4.0.2",
-		"@types/lodash": "^4.14.74",
-		"@types/lowdb": "^0.15.0",
-		"@types/mocha": "^2.2.43",
-		"chai": "^4.1.2",
-		"chai-as-promised": "^7.1.1",
-		"mocha": "^3.5.3"
-	}
+  "name": "cupsdm",
+  "version": "0.1.1",
+  "description": "CUPS drivers management tools",
+  "license": "MIT",
+  "repository": "oodolabs/cupsdm",
+  "author": {
+    "name": "towyuan",
+    "email": "towyuan@outlook.com",
+    "url": "github.com/oodolabs"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "patch": "versiony package.json --patch && npm i",
+    "minor": "versiony package.json --newminor && npm i",
+    "major": "versiony package.json --newmajor && npm i",
+    "test": "mocha test/**/*.test.js"
+  },
+  "keywords": [
+    "cups",
+    "driver",
+    "manager"
+  ],
+  "dependencies": {
+    "axios": "^0.16.2",
+    "bluebird": "^3.5.0",
+    "debug": "^3.0.1",
+    "download": "^6.2.5",
+    "errs": "^0.3.2",
+    "fs-extra": "^4.0.2",
+    "lodash": "^4.17.4",
+    "lowdb": "^1.0.0",
+    "ncups": "^0.7.4"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.0.4",
+    "@types/chai-as-promised": "^7.1.0",
+    "@types/fs-extra": "^4.0.2",
+    "@types/lodash": "^4.14.74",
+    "@types/lowdb": "^0.15.0",
+    "@types/mocha": "^2.2.43",
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^3.5.3",
+    "versiony-cli": "^1.3.0"
+  }
 }
