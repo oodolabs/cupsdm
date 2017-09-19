@@ -18,11 +18,10 @@
 		"major": "versiony package.json --newmajor && npm i",
 		"test": "mocha test/**/*.test.js"
 	},
-	"files": [
-		"index.js"
-	],
 	"keywords": [
-		""
+		"cups",
+		"driver",
+		"manager"
 	],
 	"dependencies": {
 		"axios": "^0.16.2",
